@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="20180705_144101" size="5.000000 7.723430"/>
+        <ImageTarget name="20180704_172338" size="5.000000 7.887714"/>
+        <ImageTarget name="20180704_170455" size="5.000000 7.422047"/>
+        <ImageTarget name="20180704_074519" size="5.000000 5.000000"/>
+        <ImageTarget name="joke1" size="5.000000 7.433155"/>
+        <ImageTarget name="joker2" size="5.000000 7.561308"/>
+        <ImageTarget name="51JvE5dzPeL" size="5.000000 7.668712"/>
+        <ImageTarget name="Medicine.Left" size="4.000000 2.000000"/>
+        <ImageTarget name="Medicine.Right" size="4.000000 2.000000"/>
+        <ImageTarget name="Medicine.Front" size="2.000000 2.000000"/>
+        <ImageTarget name="Medicine.Back" size="2.000000 2.000000"/>
+        <ImageTarget name="Medicine.Top" size="2.000000 4.000000"/>
+        <ImageTarget name="Medicine.Bottom" size="2.000000 4.000000"/>
+        <MultiTarget name="Medicine">
+            <Part name="Medicine.Left" translation="-1.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Medicine.Right" translation="1.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Medicine.Front" translation="0 0 2.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Medicine.Back" translation="0 0 -2.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Medicine.Top" translation="0 1.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Medicine.Bottom" translation="0 -1.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
